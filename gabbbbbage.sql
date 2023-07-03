@@ -45,8 +45,8 @@ CREATE TABLE IF NOT EXISTS `admin` (
 --
 
 INSERT INTO `admin` (`id`, `username`, `fullname`, `password`, `ucat`, `address`, `contact`, `acstatus`, `date`, `image`) VALUES
-(7, 'muna', 'munawalu', 'muna', 'colletor', 'muna', '012479963', 'active', '2021-06-22', 'Screenshot_20210321-205607.png'),
-(8, 'rayat', 'rayat', 'rayat', 'admin', 'rayat', '2569897654', 'active', '2021-06-22', 'Screenshot_20210324-113832.png');
+(7, 'munna', 'munawalu', 'munaM@12', 'colletor', 'muna', '012479963', 'active', '2021-06-22', 'Screenshot_20210321-205607.png'),
+(8, 'rayat', 'rayat', 'rayatR@12', 'admin', 'rayat', '2569897654', 'active', '2021-06-22', 'Screenshot_20210324-113832.png');
 
 -- --------------------------------------------------------
 
