@@ -54,13 +54,13 @@
 
                             
                             <div class="input-group custom">
-                                <input type="text" name="username" class="form-control form-control-lg" placeholder="Username">
+                                <input type="text" name="username" autocomplete="off" class="form-control form-control-lg" placeholder="Username">
                                 <div class="input-group-append custom">
                                     <span class="input-group-text"><i class="icon-copy dw dw-user1"></i></span>
                                 </div>
                             </div>
                             <div class="input-group custom">
-                                <input type="password" name="password" placeholder="Password" required class="form-control form-control-lg">
+                                <input type="password" name="password" autocomplete="off" placeholder="Password" required class="form-control form-control-lg">
                                 <div class="input-group-append custom">
                                     <span class="input-group-text"><i class="dw dw-padlock1"></i></span>
                                 </div>

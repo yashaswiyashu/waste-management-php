@@ -63,7 +63,7 @@
 
 
                             <div class="input-group custom">
-                                <input type="text" name="username" class="form-control form-control-lg" placeholder="Username" value="<?php echo htmlspecialchars($username) ?>">
+                                <input type="text" name="username" autocomplete="off" class="form-control form-control-lg" autocomplete="off" placeholder="Username" value="<?php echo htmlspecialchars($username) ?>">
                                 <span style="color: red;"><?php if (isset($username_error)) {?>
                                     <p><?php echo $username_error ?></p>
                                     <?php } ?>
@@ -73,7 +73,7 @@
                                 </div>
                             </div>
                             <div class="input-group custom">
-                                <input type="password" name="password" placeholder="Password" required class="form-control form-control-lg">
+                                <input type="password" name="password" autocomplete="off" placeholder="Password" required class="form-control form-control-lg">
                                 <span style="color: red;"><?php if (isset($password_error)) {?>
                                     <p><?php echo $password_error ?></p>
                                     <?php } ?>
@@ -84,7 +84,7 @@
                             <div class="row pb-30">
                                 <div class="col-6">
                                     <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="customCheck1">
+                                        <input type="checkbox" class="custom-control-input" autocomplete="off" id="customCheck1">
                                         <label class="custom-control-label" for="customCheck1">Remember</label>
                                     </div>
                                 </div>

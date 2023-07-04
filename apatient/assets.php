@@ -53,7 +53,7 @@ include 'aaside.php'; ?>
            <div class="col-md-10">
                             <div class="form-group">
       
- <input type="hidden" name="date" required  class="form-control" value="<?php echo date('Y-m-d'); ?>">
+ <input type="hidden" name="date" required   class="form-control" value="<?php echo date('Y-m-d'); ?>">
                          <input type="hidden" name="collector" required readonly class="form-control" value="<?php echo $_SESSION['username']; ?>">
 
                           <input type="text" readonly name="clientname" required  class="form-control" value="<?php echo $ulog['names']; ?>">
